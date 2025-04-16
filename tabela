@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>tabela</title>
+    </head>
+    <body>
+        <h1>Aulas</h1>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>Horários</th>
+                    <th>Segunda-feira</th>
+                    <th>Terça-feira</th>
+                    <th>Quarta-feira</th>
+                    <th>Quinta-feira</th>
+                    <th>Sexta-feira</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+
+
+                <tr>
+                    <td> 19:00- 19:45</td>
+                    <td align="center"> - </td>
+                    <td rowspan="4">(CBTWEB)</td>
+                    <td align="center"> - </td>
+                    <td>(CBTREDE)</td>
+                    <td>(CBTAPRG)</td>
+                </tr>
+
+                <tr>
+                    <td> 19:45 - 20:30</td>
+                    <td>(CBTPRES)</td>
+                    <td></td>
+                    <td align="center">- </td>
+                    <td>(CBTREDE)</td>
+                    <td>(CBTAPRG)</td>
+                    
+                </tr>
+
+                <tr>
+                    <td> 20:30 - 21:15</td>
+                    <td>(CBTPRES)</td>
+                    <td></td>
+                    <td align="center">- </td>
+                    <td>(CBTREDE)</td>
+                    <td>(CBTREDE)</td>
+                    
+                    
+                </tr>
+
+                <tr>
+                    <td> 21:30 - 22:15</td>
+                    <td>(CBTPRES)</td>
+                    <td></td>
+                    <td rowspan="2">(CBTIHCO)</td>
+                    <td align="center">- </td>
+                    <td> CBTAPRG </td>
+                    
+                </tr>
+                
+                <tr>
+                    <td> 22:15 - 23:00</td>
+                    <td>(CBTPRES)</td>
+                    <td></td>
+                    <td>(CBTIHCO)</td>
+                    <td align="center"> - </td>
+                    <td>(CBTPRG)</td>
+                    
+                </tr>
+            </tbody>
+
+            <tfoot>
+
+            </tfoot>
+        </table>
+    </body>
+</html>
